@@ -18,12 +18,15 @@ const resultPhrase = 'Result is: ';
 const result = add(number1, number2, printResult, resultPhrase);
 
 // OBJECT TYPES
-let person: {
+const me: {} = {name: 'Max'}
+// is the same thing as
+const me2: object = {name: 'Max'}
+
+// in depth example
+const person: {
     name: string;
     age: number;
-}
-
-person = {
+} = {
     name: 'Shiv',
     age: 24,
 }
