@@ -54,3 +54,7 @@ for (const hobby of shiv.hobbies) {
 // a fixed length array that you dictate how what data type and in what order that data should be arranged within the array example: hobbies: [string, number] this means array should only include 2 objects [0] should be a string and [1] should be a number
 
 // ENUMS
+// allows you to give numbers human readable labels
+//  Example enum Role {ADMIN, AUTHOR, EMPLOYEE} admin would have a number assigned 0 and author 1 those can also be altered but that is the default behavior
+
+// ANY
