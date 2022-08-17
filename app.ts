@@ -32,3 +32,25 @@ const person: {
 }
 
 console.log(person.name);
+
+// ARRAY TYPES
+const shiv = {
+    name: 'Shiv',
+    age: 24,
+    hobbies: ['Sports', 'Coding']
+};
+
+let favoriteActivities: string[];
+// array must have strings, you cannot pass in numbers or booleans. If you need to allow all data types into the array you can use any[] but that would be losing all benefits of typescript
+favoriteActivities = ['Camping'];
+
+console.log(favoriteActivities);
+
+for (const hobby of shiv.hobbies) {
+    console.log(hobby);
+}
+
+// TUPLES
+// a fixed length array that you dictate how what data type and in what order that data should be arranged within the array example: hobbies: [string, number] this means array should only include 2 objects [0] should be a string and [1] should be a number
+
+// ENUMS
